@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best friend aplication form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div>
+            <h1>best friend application</h1>
+            <img src="http://www.lalive.com/assets/img/minion-1.jpg"alt="">
+            <p>
+                Hey there!I need a new best friend...because the last one escaped:)
+                not my fault though, I'm a little moody. but super cool!
+            </p>
+            <h3>
+                Wanna be friends?
+            </h3>
+        </div>
+        <form action="mailto:ajona2011david@gmail.com?subject=My Best Friend application" method="POST" 
+        enctype="text/plain">
+            <label for="name">what's your name?</label>
+            <input type="text"name="name" placeholder="John Doe">
+            <label for="">what do you want me to call you as?</label>
+            <input type="text" name="nickname" id="nickname" placeholder="johnny">
+            <label for="age">what's your age?</label>
+            <input type="number" name="age" id="age" min="10" max="16">
+            <label for="superhero">who is your favorite superhero?</label>
+            <br>
+            <input type="checkbox" name="" id="Iron man"><label for="Iron man">Iron man</label>
+            <input type="checkbox" name="" id="super man"><label for="super man">super man</label>
+            <input type="checkbox" name="" id="bat man"><label for="bat man">bat man</label>
+            <br>
+            <label for="Why">Why do you wanna be friends with me?</label>
+            <textarea name="Why" id="Why" cols="30" rows="3">I what to be friends with you because...</textarea>><input type="submit" value=" LET'S BE FRIENDS">
+        </form>
+    </section>
+</body>
+</html>
